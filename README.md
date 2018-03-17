@@ -1,6 +1,6 @@
 # Overview
 
-I have a certain style that I prefer my ansible roles to adhere to. I choose to use [test-kitchen](https://github.com/test-kitchen/test-kitchen) and [bats](https://github.com/sstephenson/bats) for test driven development. I don't care for the boilerplate that `ansible-galaxy` uses.
+This is a fork of pgporadas ansible boilerplate script with some of my own preferences on top
 
 - - - -
 # Usage
@@ -69,7 +69,7 @@ $ tree -aF -I .git
 
 10 directories, 14 files
 ```
-
 - - - -
-# Author Information
+
+# Original Author:
 (c) 2016 Phil Porada - philporada@gmail.com
