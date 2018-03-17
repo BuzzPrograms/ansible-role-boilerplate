@@ -215,7 +215,7 @@ INSTALL
 cat <<- META > "${ROLE_NAME}"/meta/main.yml
 ---
 galaxy_info:
-  author: Phil Porada - philporada@gmail.com
+  author: Joël Weber - joel.weber@live.nl
   description: ${BARE_ROLE_NAME}
   company: Some Company
   min_ansible_version: ${ANSIBLE_VERSION}
@@ -283,7 +283,7 @@ Test-kitchen needs our github ssh key so it can pull code from github on our beh
 # License and Author Information
 ${LICENSE}
 
-(c) $(date +%Y) Phil Porada - philporada@gmail.com
+(c) $(date +%Y) Joël Weber - joel.weber@live.nl
 README
 }
 
